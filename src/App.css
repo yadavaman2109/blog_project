@@ -1,0 +1,23 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding: 20px 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  main {
+    padding: 15px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    padding: 10px 0;
+  }
+} 
